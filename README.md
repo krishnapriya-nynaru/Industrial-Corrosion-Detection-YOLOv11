@@ -55,3 +55,23 @@ The training process followed the standard ***YOLOv11 training pipeline***, ensu
 3. Change to Project Directory
     ```bash
     cd Industrial_corrosion_detection_yolov11
+
+## Usage
+Run the script with Python
+
+For a single image:
+```bash
+python corrosion_detection.py --input path/to/image.jpg --model /path/to/model
+```
+For a folder of images:
+```bash
+python corrosion_detection.py --input path/to/image_folder --model /path/to/model
+```
+For a video file:
+```bash
+python corrosion_detection.py --input path/to/video.mp4 --model /path/to/model
+```
+For webcam (e.g., default webcam):
+```bash
+python corrosion_detection.py --input 0 --model /path/to/model
+```
