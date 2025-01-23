@@ -28,16 +28,27 @@ The corrosion detection model was trained using the YOLOv11 architecture on a cu
 
 ### Training Specifications & Hyperparameters
 **Model:** YOLOv11
+
 **Framework:** Ultralytics YOLOv11
+
 **Epochs:** 100
+
 **Batch Size:** 16
+
 **Image Size:** 640x640
+
 **Optimizer:** Adam (with custom learning rate)
+
 **Learning Rate:** 0.001 (adjusted for training stability)
+
 **Warmup Epochs:** 5
+
 **Momentum:** 0.937
+
 **Weight Decay:** 0.0005
+
 **Data Augmentation:** Used during training to enhance model robustness
+
 ### Training Process
 The model was trained for 100 epochs, with training taking approximately 2 hours on a machine with an ***NVIDIA GPU***.
 The training process followed the standard ***YOLOv11 training pipeline***, ensuring robust model performance and accuracy.
