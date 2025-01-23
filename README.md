@@ -13,10 +13,10 @@ This repository implements an industrial corrosion detection system using the YO
 - [Acknowledgments](#acknowledgments)
 
 ## Key Features:
-- 18 Corrosion Classes: Detect various corrosion types, including Corrosion, Rust, Oxidation-Corrosion, High-Corrosion, and more.
-- Custom Dataset: Trained on a specially curated corrosion dataset for high accuracy in industrial applications.
-- Efficient Inference: Powered by YOLOv11 for fast and reliable real-time detection.
-- Use Cases: Applicable to industrial asset management, corrosion monitoring, and preventive maintenance systems.
+- ***18 Corrosion Classes:*** Detect various corrosion types, including Corrosion, Rust, Oxidation-Corrosion, High-Corrosion, and more.
+- ***Custom Dataset:*** Trained on a specially curated corrosion dataset for high accuracy in industrial applications.
+- ***Efficient Inference:*** Powered by YOLOv11 for fast and reliable real-time detection.
+- ***Use Cases:*** Applicable to industrial asset management, corrosion monitoring, and preventive maintenance systems.
 
 ## Model Training
 The corrosion detection model was trained using the YOLOv11 architecture on a custom dataset sourced from Roboflow. The dataset contains 18 corrosion-related classes, ranging from various severity levels such as Rust, High-Corrosion, and Oxidation-Corrosion, designed to enable accurate detection of corrosion in industrial settings.
