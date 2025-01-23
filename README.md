@@ -8,7 +8,6 @@ This repository implements an industrial corrosion detection system using the YO
 - [Model Training](#model-training)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Model Inference](#model-inference)
 - [Results](#results)
 - [Contributing](#contributing)
 - [Acknowledgments](#acknowledgments)
@@ -75,3 +74,31 @@ For webcam (e.g., default webcam):
 ```bash
 python corrosion_detection.py --input 0 --model /path/to/model
 ```
+**Explanation:**
+
+***--input:*** Accepts paths to images, folders, videos, or webcam ID.
+
+***--model:*** Specifies the path to the trained YOLOv11 model.
+
+***--output:*** Specifies the output folder for saving results (optional, defaults to results)
+
+## Results
+
+![alt text](https://github.com/krishnapriya-nynaru/Industrial-Corrosion-Detection-YOLOv11/blob/main/Industrial_corrosion_detection_yolov11/results/outputcorrosion_1.jpg?raw=true) 
+![alt text](https://github.com/krishnapriya-nynaru/Industrial-Corrosion-Detection-YOLOv11/blob/main/Industrial_corrosion_detection_yolov11/results/outputcorrosion_7.jpg?raw=true) 
+## Contributing
+Contributions are welcome! To contribute to this project:
+
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Make your changes and ensure the code passes all tests.
+4. Submit a pull request with a detailed description of your changes.
+
+If you have any suggestions for improvements or features, feel free to open an issue!
+
+## Acknowledgments
+- [**YOLOv11 for object detection.**](https://github.com/ultralytics/yolov11)
+- [**Managed and augmented the corrosion dataset**](https://roboflow.com/)
+- [**OpenCV for computer vision functionalities.**](https://opencv.org/)
+- [**The framework used for model training.**](https://pytorch.org/)
+
